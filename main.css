@@ -1708,10 +1708,7 @@ margin-top: 8px;
 .services .img img {
   transition: 0.6s;
 }
-.services .img img:hover {
-  filter: brightness(45%);
- 
-}
+
 .services .details {
   padding: 50px 30px;
   margin: -100px 30px 0 30px;
@@ -1734,13 +1731,15 @@ margin-top: 8px;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  color: white;
   font-size: 28px;
   transition: ease-in-out 0.3s;
   position: absolute;
   top: -36px;
   left: calc(50% - 36px);
   
+}
+.services .details .icon:hover{
+  background-color: #055282;
 }
 
 .services .details h3 {
